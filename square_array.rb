@@ -1,10 +1,15 @@
 
 def square_array(array)
-  array.each do |numbers|
-    puts numbers ** 2 
-new_array
+  new_array = []
+  array.each{|numbers| new_array.push(numbers**numbers)}
+  new_array
 end
 
 #giht now you have newarray = to the method not its return value .. make newarray and empty array then push the each return to it and call newarray
 
-#  newarray = array.each {|i| i ** 2}
+
+#  array.each{|a| new_array.push(a*a)}
+
+
+# arr = [1, 2, 3, 4, 5]
+# square_array(arr)
